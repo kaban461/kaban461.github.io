@@ -1,0 +1,213 @@
+body{
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/velo.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+}
+
+.header{
+  width: 100%;
+  height: 75px;
+  padding: 20px 0.5% 0px 0.5%;
+  background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), #1f1d1d;
+}
+
+#navigation ul li{
+  float: right;
+  margin-top: 10px;
+}
+
+#navigation ul li a{
+  font-size: 1.1em;
+  line-height: 45px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#FFFFFF;
+  padding: 0 10px;
+
+}
+
+.part1{
+  float: left;
+}
+.logo{
+  font-size: 1.7em;
+  line-height: 45px;
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: 'Suez One', serif;
+  color:#FFFFFF;
+}
+
+.logo :hover{
+  font-size: 1.7em;
+  line-height: 45px;
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: 'Suez One', serif;
+  color:#FFFFFF;
+}                             /*Наш логотип*/
+
+.part2{
+  float: right;
+  margin-right: 40px;
+}
+
+.bar{
+  font-size: 1.1em;
+  line-height: 45px;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#FFFFFF;
+
+}                                /*кінець шапки магазину*/
+
+a.nubex {
+	color: #fff;
+	user-select: none; /* Убираем текстовое выделение */
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #9d87ff; /* Цвет фона */
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 30px;
+	padding: 5px 10px; /* Отступ от текста до рамки */
+	}
+	a.nubex:active {
+	background-color: #9d87ff; /* Цвет кнопки при нажатии */
+	}
+	a.nubex:hover {
+	background-color: #9d87ff; /* Цвет кнопки при наведении курсора */
+	}
+
+  .text{
+    width: 100%;
+    height: 75px;
+    padding: 20px 0.5% 0px 0.5%;
+    background: none;
+    padding-top: 20px
+  }
+
+  .rocet{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 45px;
+    float: left;
+    color:#FFFFFF;
+    border:0px #fff  solid;
+    width: 40%;
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  .money{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 45px;
+    float: left;
+    color:#FFFFFF;
+    border:0px #fff  solid;
+    width: 19.6%;
+    text-align: center;
+  }
+
+  .clock{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.3em;
+    line-height: 45px;
+    float: right;
+    color:#FFFFFF;
+    border:0px #fff  solid;
+    width: 40%;
+    text-align: left;
+    padding-left: 0px;
+  }                  /*Наші лозунги*/
+
+  .sidebar{
+  width: 20%;
+  min-height: 500px;
+  float: left;
+  /*background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)), #1f1d1d;*/
+  margin-left: 50px;
+  }
+
+  .veloside{
+    width: 100%;
+    min-height: 50px;
+    border:1px #616161  solid;
+  }
+
+  .velo1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
+    line-height: 45px;
+    text-decoration: none;
+    color:#FFFFFF;
+    padding-left: 15px:
+  }
+
+  .velo1 :hover{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
+    line-height: 45px;
+    text-decoration: none;
+    color:#FFFFFF;
+    padding-left: 15px:
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+        /*зовнішній вид меню*/
+
+  .menu a{
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), #1f1d1d;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #1f1f1f;
+    transition: 0.5s all;
+  }
+
+  .menu a:hover{
+    background: #1f1f1f;
+    padding: 10px 0 10px 20px;
+  }
+      /*Вспливаючі блоки*/
+
+  .menu_list{
+    position: relative;
+  }
+
+  .menu_drop{
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: -9999em;
+    opacity: 0;
+    border-left: 1px solid transparent;
+    transition: 0.5s opacity;
+  }
+
+  .menu_list:hover .menu_drop{
+    opacity: 1;
+    top: 0;
+
+}
+                        /*Наш каталог велосипедів*/
+
+  .slider{
+    width: 60%;
+    min-height: 500px;
+    float: left;
+    background: /*#1f1d1d*/;
+    margin-left: 75px;
+    margin-right: 25px;
+  }
+                        /*Місце для контенту*/
